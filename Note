@@ -1,0 +1,12 @@
+create a value component. Import the HttpClientModule in the app.module
+we inject the http client in the contructor of the value controller. Normally we use a service for this.
+create the equivalent getValues method to get the values from the server using the http get method
+then subscribe to the observable which is what is return as well as handle the error if something goes wrong.
+
+Because we want to call the method immediately when the component loads we call it in the ngOnInit(). To see this work
+we include the app-value selector in the app.component.html
+
+We need to enable cors from the backend. After which we check the network tab to see our response.
+
+To display the values in the html page we make use of the structural directive *ngFor to loop through it in the value.html
+
