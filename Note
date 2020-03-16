@@ -10,3 +10,9 @@ We need to enable cors from the backend. After which we check the network tab to
 
 To display the values in the html page we make use of the structural directive *ngFor to loop through it in the value.html
 
+npm i boostrap font-awesome.
+
+We create a nav component to hold everything navigation
+Next we create a _services folder to hold all our serviceas. First we create the auth service and import it into provider
+of the app.module.ts file
+
